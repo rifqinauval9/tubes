@@ -1,11 +1,11 @@
-# Tugas Besar Algoritma Pemrograman - Who Wants to Be a Millionaire (GO)
+# Tugas Besar Algoritma Pemrograman - _Who Wants to Be a Millionaire_ (GO)
 ### IF-47-06
 
 Anggota :
 - Jason Emmanuel (103012300115)
 - Rifqi Nauval Nibroos (103012330482)
 
-## _Command-Prompt Program_ Berbasis Permainan Kuis "Who Wants to Be a Millionaire"
+## _Command-Prompt Program_ Berbasis Permainan Kuis "_Who Wants to Be a Millionaire_"
 
 ## Fitur
 - Menu Awal :
