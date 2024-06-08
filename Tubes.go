@@ -497,7 +497,7 @@ func peringkat(P DataPemain) {
 	insertionSortH(&P, 5)
 	for i = 0; i < 3; i++ {
 		if i == 0 {
-			fmt.Print("[1] ")
+			fmt.Print("[*1*] ")
 		} else if i == 1 {
 			fmt.Print("[2] ")
 		} else if i == 2 {
