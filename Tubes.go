@@ -191,19 +191,21 @@ func gantiPW(P *DataPemain, tP int) {
 			fmt.Println("|Akun tidak memiliki pin")
 			nimLimit++
 		} else {
-			fmt.Println("> Pin: ")
+			fmt.Print("> Pin: ")
 			fmt.Scan(&pin)
 			if pin == P[found].pin {
-				fmt.Print("|Silahkan ubah password: ")
+				fmt.Print("> Silahkan ubah password: ")
 				fmt.Scan(&P[found].password)
-				fmt.Println(P[found].password)
+				cek = true
+				fmt.Println("|Password Berhasil Diubah|")
 			} else {
 				fmt.Println("|Pin salah")
+				nimLimit++
 			}
 		}
 	}
 	if nimLimit == 3 {
-		fmt.Println("|NIM salah 3 kali berturut")
+		fmt.Println("|Identitas salah 3 kali berturut")
 	}
 }
 
