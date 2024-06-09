@@ -470,9 +470,12 @@ func mulaiKuis(P *DataPemain, S *DataSoal, tS, found int) {
 		}
 		P[found].point = int(poinAkhir)
 		fmt.Println("Score akhir:", P[found].point)
-		fmt.Printf("Selamat, anda mendapatkan Rp%d\n", 100000000/P[found].point)
+		if P[found].point == 0 {
+			fmt.Println("Anda tidak mendapatkan apa-apa, coba lagi lain kali!")
+		} else {
+			fmt.Printf("Selamat, anda mendapatkan Rp%d!\n", 100000000/P[found].point)
+		}
 	}
-
 	if P[found].highscore < P[found].point {
 		updateHigh(P, found)
 	}
